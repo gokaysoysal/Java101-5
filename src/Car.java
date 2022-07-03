@@ -3,7 +3,7 @@ class Car {
     String model;
     String color;
     int speed;
-    int speedLimit = 180;
+    int speedLimit = 170;
 
     void increaseSpeed(int increment) {
         if ((speed + increment) < speedLimit) {
