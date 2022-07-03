@@ -1,24 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        Car audi = new Car();
-        audi.model = "Audi";
-        audi.speed = 20;
-        audi.increaseSpeed(20);
-        audi.printSpeed();
+        Car audi = new Car("Audi", 10, "Blue", "Sedan");
+        audi.printInfo();
 
-        Car bmw = new Car();
-        bmw.model = "BMW";
-        bmw.speed = 20;
-        bmw.increaseSpeed(20);
-        bmw.increaseSpeed(40);
-        bmw.printSpeed();
+        Car bmw = new Car("BMW", 20, "Red", "Hatchback");
+        bmw.printInfo();
 
-        Car mercedes = new Car();
-        mercedes.model = "Mercedes";
-        mercedes.speed = 30;
-        mercedes.increaseSpeed(20);
-        mercedes.increaseSpeed(15);
-        mercedes.printSpeed();
-
+        Car mercedes = new Car("Mercedes", 30, "Black", "Suv");
+        mercedes.printInfo();
     }
 }
