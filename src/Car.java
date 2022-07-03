@@ -5,7 +5,7 @@ class Car {
     int speed;
     int speedLimit;
 
-    Car(String model, int speed, String color, String type){
+    Car(String model, int speed, String color, String type) {
         this.model = model;
         this.speed = speed;
         this.color = color;
@@ -28,7 +28,8 @@ class Car {
     void printSpeed() {
         System.out.println(model + " Hiziniz: " + speed);
     }
-    void printInfo(){
+
+    void printInfo() {
         System.out.println("Model \t: " + this.model);
         System.out.println("Color \t: " + this.color);
         System.out.println("Type \t: " + this.type);
