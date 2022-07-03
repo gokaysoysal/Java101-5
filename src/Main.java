@@ -10,7 +10,7 @@ public class Main {
         bmw.model = "BMW";
         bmw.speed = 20;
         bmw.increaseSpeed(20);
-        bmw.increaseSpeed(50);
+        bmw.increaseSpeed(40);
         bmw.printSpeed();
 
         Car mercedes = new Car();
